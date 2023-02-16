@@ -4,7 +4,10 @@
 
  <?php 
     
+  
+    require_once 'functions.php';
     $page = $_GET['page'];
+
 
     switch ($page) {
         case 'home':
@@ -12,6 +15,9 @@
             break;
         case 'about':
              require_once 'about.php';
+            break;
+        case 'detail':
+             require_once 'detail.php';
             break;
         
         default:
