@@ -8,7 +8,7 @@
 
         <div class="col-8">
               <?php            
-                detailArticle($id);
+                detailUlasan($id);
               ?>
         </div>
         <?php 
@@ -23,7 +23,8 @@
                     <hr class="text-light">
                     <div class="row">
                         <div class="col-md-2">
-                            <img src="img/steve-job.png" class="img-thumbnail">
+                            <img src="img/steve-job.png" width="100px"
+                             height="100px" class="img-thumbnail">
                         </div>
                         <div class="col-md-8">
                             <div class="form-group">

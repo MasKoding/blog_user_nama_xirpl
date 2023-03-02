@@ -19,7 +19,10 @@
         case 'detail':
              require_once 'detail.php';
             break;
-        
+        case 'detailulasan':
+             require_once 'detail_ulasan.php';
+            break;
+       
         default:
              require_once 'error.php';
             break;

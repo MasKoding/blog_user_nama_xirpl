@@ -19,7 +19,7 @@
 
     <title>BlogKuh</title>
   </head>
-  <body style="background-color: #1a1a1a;">
+  <body style="background-color: #1a1a1a; margin:0;">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">BlogKuh</a>
